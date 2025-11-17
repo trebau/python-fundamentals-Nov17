@@ -213,5 +213,7 @@ print("the bill:", the_bill)
 the_bill = restaurant_bill_calculator("50 buckos",5)
 print("the bill:", the_bill)
 
-the_bill = restaurant_bill_calculator(50,"six")
+the_bill = restaurant_bill_calculator(50,"six",0.0)
 print("the bill:", the_bill)
+
+#this is the end of the file
