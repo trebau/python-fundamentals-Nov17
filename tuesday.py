@@ -194,20 +194,20 @@ test_case_two = [52, 55, 98, 133]
 
 test_case_three = [6081, 1200, 134, 547, 896, -200, -35, -6081, 0]
 
-# def fizz_buzz_list(list_of_numbers):
-#     for number in list_of_numbers:
-#         if number % 3 == 0 and number % 5 == 0:
-#             index = list_of_numbers.index(number)
-#             list_of_numbers[index] = 'Fizz Buzz'
-#         # if the number is divisible by three
-#         elif number % 3 == 0:
-#             #replace the number with Fizz by first getting its index
-#             index = list_of_numbers.index(number)
-#             list_of_numbers[index] = 'Fizz'
-#         elif number % 5 == 0:
-#             index = list_of_numbers.index(number)
-#             list_of_numbers[index] = 'Buzz'
-#     return list_of_numbers
+def fizz_buzz_list(list_of_numbers):
+    for number in list_of_numbers:
+        if number % 3 == 0 and number % 5 == 0:
+            index = list_of_numbers.index(number)
+            list_of_numbers[index] = 'Fizz Buzz'
+        # if the number is divisible by three
+        elif number % 3 == 0:
+            #replace the number with Fizz by first getting its index
+            index = list_of_numbers.index(number)
+            list_of_numbers[index] = 'Fizz'
+        elif number % 5 == 0:
+            index = list_of_numbers.index(number)
+            list_of_numbers[index] = 'Buzz'
+    return list_of_numbers
 
 def fizz_buzz_list(list_of_numbers):
     index=0

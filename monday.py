@@ -61,7 +61,7 @@ print("ALL DONE")
 
 ##################################################################################### #
 
-Part 2 --- Funttions ----- #
+# Part 2 --- Funttions ----- #
 
 def say_hello():
     #put whatever the function does right here
