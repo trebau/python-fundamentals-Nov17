@@ -34,3 +34,23 @@ class Robot:
     def analyze_info(self, info):
         return f"BEEP BOOP ANALYZING {info}"
     
+    # the @ is a decorator
+    # a decorator modifies the function
+    @classmethod
+    def build_killer_robot(cls, name):
+        print(cls)
+        return Robot(name=name, battery_life="way too long", processing_power="kill", mode="destroy all humans")
+    
+
+# D.R.Y - Don't Repeat Yourself
+
+class Roomba(Robot):
+
+    consistency = "cheap plastic"
+    
+    def __repr__(self):
+        return f"Roomba( name={self.name} battery_life={self.battery_life} processing_power={self.processing_power})"    
+
+    def vacuum(self):
+        return "VRRRRRRRRRRRRRRRRRRRR"
+    

@@ -30,7 +30,7 @@
 
 # IMPORTING MODULES #
 
-from robot import robot_uprising, Robot
+from robot import robot_uprising, Robot, Roomba
 
 # list_of_angry_bots = ["ANGRY " + bot for bot in list_of_bots]
 
